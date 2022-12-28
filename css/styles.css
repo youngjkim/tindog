@@ -126,13 +126,6 @@ p {
 
 /* Title Image */
 
-/* .title-image {
-    width: 22%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 360px;
-} */
-
 .title-image {
     width: 60%;
     transform: rotate(25deg);
@@ -147,4 +140,15 @@ p {
 
 .test {
     position: relative;
+}
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0)
+    }
 }
