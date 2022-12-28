@@ -35,20 +35,44 @@ p {
     padding: 3% 15% 7%;
 }
 
-/* Pricing Section */
+/* Navigation Bar */
 
-#pricing {
-    padding: 100px;
-    text-align: center;
-    background: #fff;
+.navbar {
+    padding: 0 0 4.5rem;
 }
 
-.pricing-column {
-    padding: 3% 2%;
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
-.card-header {
-    padding-top: 5%;
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: light;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
 }
 
 /* Testimonial Section */
@@ -80,6 +104,22 @@ p {
     padding: 7% 15%;
 }
 
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    background: #fff;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-header {
+    padding-top: 5%;
+}
+
 /* Features Section */
 
 .feature-img {
@@ -96,26 +136,27 @@ p {
     padding: 5%;
 }
 
-/* Navigation Bar */
+/* Call To Action Section */
 
-.navbar {
-    padding: 0 0 4.5rem;
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10% 20% 10%;
 }
 
-.navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
+.cta-title {
+    color: #fff;
 }
 
-.nav-item {
-    padding: 0 18px;
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 10% 20% 10%;
 }
 
-.nav-link {
-    font-weight: light;
-    font-size: 1.2rem;
-    font-family: "Montserrat";
+.footer-img {
+    padding: 50px 20px;
 }
 
 /* Download Buttons */
@@ -124,27 +165,11 @@ p {
     margin: 5% 3% 5% 0%;
 }
 
-/* Title Image */
-
-.title-image {
-    width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
-}
-
-#features {
-    padding: 7% 15%;
-    background-color: #fff;
-    position: relative;
-}
-
-.test {
-    position: relative;
-}
+/* Media Query */
 
 @media (max-width: 991px) {
     #title {
-        text-align: center;
+        text-align:center;
     }
 
     .title-image {
