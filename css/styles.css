@@ -4,7 +4,7 @@
     text-align: left;
 }
 
-h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat';
     text-align: center;
 }
@@ -158,11 +158,11 @@ p {
 /* Footer */
 
 #footer {
-    padding: 10% 20% 10%;
+    margin: 10% 20% 10%;
 }
 
-.footer-img {
-    padding: 50px 20x;
+.fa-lg {
+    margin: 0 15px 50px;
 }
 
 /* Download Buttons */
